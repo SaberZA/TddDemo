@@ -1,0 +1,16 @@
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\TddDemo.Test.dll.config
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\TddDemo.Test.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\TddDemo.Test.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\EntityFramework.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\nunit.framework.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\TddDemo.Console.exe
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\TddDemo.Logic.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\TddDemo.Console.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\TddDemo.Logic.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\EntityFramework.xml
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\nunit.framework.xml
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\obj\Debug\TddDemo.Test.csprojResolveAssemblyReference.cache
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\obj\Debug\TddDemo.Test.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\obj\Debug\TddDemo.Test.pdb

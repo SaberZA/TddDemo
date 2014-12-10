@@ -1,0 +1,5 @@
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\bin\Debug\TddDemo.Data.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\bin\Debug\TddDemo.Data.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\obj\Debug\TddDemo.Data.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\obj\Debug\TddDemo.Data.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\obj\Debug\TddDemo.Data.csprojResolveAssemblyReference.cache

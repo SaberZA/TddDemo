@@ -1,0 +1,9 @@
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\TddDemo.Logic.dll.config
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\TddDemo.Logic.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\TddDemo.Logic.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\EntityFramework.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\EntityFramework.xml
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\obj\Debug\TddDemo.Logic.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\obj\Debug\TddDemo.Logic.pdb

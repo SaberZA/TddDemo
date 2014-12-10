@@ -1,0 +1,12 @@
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\TddDemo.Console.exe.config
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\TddDemo.Console.exe
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\TddDemo.Console.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\EntityFramework.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\TddDemo.Logic.dll
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\TddDemo.Logic.pdb
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\EntityFramework.xml
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\obj\Debug\TddDemo.Console.csprojResolveAssemblyReference.cache
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\obj\Debug\TddDemo.Console.exe
+c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Console\obj\Debug\TddDemo.Console.pdb
