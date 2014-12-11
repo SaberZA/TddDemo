@@ -13,7 +13,7 @@ namespace TddDemo.Test
 
         public override string ToString()
         {
-            return string.Format("Name: {0}, HireDate: {1}, Id: {2}", _employee.Name, _employee.HireDate, _employee.Id);
+            return string.Format("Name: {0}, HireDate: {1}", _employee.Name, _employee.HireDate);
         }
     }
 }

@@ -48,7 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Employee.cs" />
-    <Compile Include="_base\InMemoryObjectSet.cs" />
+    <Compile Include="UnitOfWork\LocalDbContext.cs" />
+    <Compile Include="_base\InMemoryDbSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\TimeCard.cs" />
     <Compile Include="_base\InMemoryUnitOfWork.cs" />

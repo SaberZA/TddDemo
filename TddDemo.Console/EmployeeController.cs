@@ -12,7 +12,7 @@ namespace TddDemo.Test
 
         public void Create(Employee newEmployee)
         {
-            _unitOfWork.Employees.AddObject(newEmployee);
+            _unitOfWork.Employees.Add(newEmployee);
             _unitOfWork.Commit();
         }
 

@@ -18,7 +18,17 @@ namespace TddDemo.Test
         public void ShouldAddNewEmployeeToRepository()
         {
             Controller.Create(_newEmployee);
-            Assert.IsTrue(Repository.Contains(_newEmployee));
+            //Assert.IsTrue(UnitOfWork.Employees.Any(e=>e.Id == _newEmployee.Id));
+            var enumerator = Repository.GetEnumerator();
+
+            while (enumerator.MoveNext())
+            {
+                Debug.WriteLine(enumerator.Current.Id);
+            }
+            //foreach (var employee in Repository)
+            //{
+            //    Debug.WriteLine(employee.Id);
+            //}
         }
 
         [Test]
@@ -34,7 +44,7 @@ namespace TddDemo.Test
             //---------------Set up test pack-------------------
             Controller.Create(_newEmployee);
             //---------------Assert Precondition----------------
-            Assert.IsTrue(Repository.Contains(_newEmployee));
+            Assert.IsTrue(Repository.Any(e=>e.Id.Equals(_newEmployee.Id)));
             //---------------Execute Test ----------------------
             var viewResult = Controller.Details(_newEmployee.Id);
             //---------------Test Result -----------------------

@@ -1,4 +1,5 @@
 ﻿using System.Configuration;
+using System.Data.Entity;
 using System.Data.Entity.Core.EntityClient;
 using System.Data.Entity.Core.Objects;
 using TddDemo.Logic.Models;
@@ -10,24 +11,24 @@ namespace TddDemo.Logic.UnitOfWork
     {
         public SqlUnitOfWork()
         {
-            //var connectionString =
-            //    ConfigurationManager
-            //        .ConnectionStrings[ConnectionStringName]
-            //        .ConnectionString;
-            var connString = getConStrSQL();
-            _context = new ObjectContext(connString);
+            var connectionString =
+                ConfigurationManager
+                    .ConnectionStrings[ConnectionStringName]
+                    .ConnectionString;
+            //var connectionString = getConStrSQL();
+            _context = new LocalDbContext(connectionString);
              
             Committed = false;
         }
 
-        public IObjectSet<Employee> Employees
+        public IDbSet<Employee> Employees
         {
-            get { return _context.CreateObjectSet<Employee>(); }
+            get { return _context.Set<Employee>(); }
         }
-        
-        public IObjectSet<TimeCard> TimeCards
+
+        public IDbSet<TimeCard> TimeCards
         {
-            get { return _context.CreateObjectSet<TimeCard>(); }
+            get { return _context.Set<TimeCard>(); }
         }
 
         public bool Committed { get; set; }
@@ -38,35 +39,7 @@ namespace TddDemo.Logic.UnitOfWork
             Committed = true;
         }
 
-        readonly ObjectContext _context;
+        readonly LocalDbContext _context;
         const string ConnectionStringName = "EmployeeDataModelContainer";
-
-        public static string getConStrSQL()
-        {
-            string connectionString = new EntityConnectionStringBuilder
-            {
-                Metadata = @"res://*/",
-                Provider = "System.Data.SqlClient",
-                ProviderConnectionString = new System.Data.SqlClient.SqlConnectionStringBuilder
-                {
-                    InitialCatalog = ConnectionStringName,
-                    DataSource = @".\SQLEXPRESS",
-                    IntegratedSecurity = true,
-                }.ConnectionString
-            }.ConnectionString;
-
-            return connectionString;
-        }
-    }
-
-    public class LocalContext : ObjectContext
-    {
-        public LocalContext(string connectionStringName)
-            : base("name=" + connectionStringName)
-        {
-            
-        }
-
-        
     }
 }

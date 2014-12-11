@@ -1,3 +1,4 @@
+using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
 using TddDemo.Logic.Models;
 
@@ -9,13 +10,13 @@ namespace TddDemo.Test
         {
             Committed = false;
         }
-        public IObjectSet<Employee> Employees
+        public IDbSet<Employee> Employees
         {
             get;
             set;
         }
 
-        public IObjectSet<TimeCard> TimeCards
+        public IDbSet<TimeCard> TimeCards
         {
             get;
             set;

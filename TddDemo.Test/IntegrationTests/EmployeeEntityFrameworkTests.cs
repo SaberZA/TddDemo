@@ -12,7 +12,7 @@ namespace TddDemo.Test
         public void ShouldAddNewEmployeeToRepository()
         {
             Controller.Create(_newEmployee);
-            Assert.IsTrue(UnitOfWork.Employees.Contains(_newEmployee));
+            Assert.IsTrue(UnitOfWork.Employees.Any(e => e.Id.Equals(_newEmployee.Id)));
         }
 
         [Test]
@@ -28,17 +28,22 @@ namespace TddDemo.Test
             //---------------Set up test pack-------------------
             Controller.Create(_newEmployee);
             //---------------Assert Precondition----------------
-            Assert.IsTrue(UnitOfWork.Employees.Contains(_newEmployee));
+            Assert.IsTrue(UnitOfWork.Employees.Any(e=>e.Id.Equals(_newEmployee.Id)));
             //---------------Execute Test ----------------------
             var viewResult = Controller.Details(_newEmployee.Id);
             //---------------Test Result -----------------------
-            Assert.AreEqual(viewResult.ToString(), "Name: NEW EMPLOYEE, HireDate: 1/1/2010 12:00:00 AM, Id: 4");
+            Assert.AreEqual(viewResult.ToString(), "Name: NEW EMPLOYEE, HireDate: 1/1/2010 12:00:00 AM");
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            UnitOfWork.Employees.Remove(_newEmployee);
         }
 
 
         Employee _newEmployee = new Employee()
         {
-            Id = 4,
             Name = "NEW EMPLOYEE",
             HireDate = new System.DateTime(2010, 1, 1)
         };
