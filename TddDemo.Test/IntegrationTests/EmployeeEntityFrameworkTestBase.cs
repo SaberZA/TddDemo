@@ -9,8 +9,6 @@ namespace TddDemo.Test
     {
         public EmployeeEntityFrameworkTestBase()
         {
-            EmployeeData = EmployeeObjectMother.CreateEmployees()
-                .ToList();
             UnitOfWork = new SqlUnitOfWork();
             Controller = new EmployeeController(UnitOfWork);
         }

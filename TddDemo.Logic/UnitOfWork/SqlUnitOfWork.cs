@@ -15,7 +15,6 @@ namespace TddDemo.Logic.UnitOfWork
                 ConfigurationManager
                     .ConnectionStrings[ConnectionStringName]
                     .ConnectionString;
-            //var connectionString = getConStrSQL();
             _context = new LocalDbContext(connectionString);
              
             Committed = false;

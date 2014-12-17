@@ -8,27 +8,21 @@ using TddDemo.Test;
 
 namespace TddDemo.Test
 {
-
     [TestFixture]
     public class EmployeeControllerCreateActionPostTests
                : EmployeeControllerTestBase
     {
-
         [Test]
         public void ShouldAddNewEmployeeToRepository()
         {
             Controller.Create(_newEmployee);
-            //Assert.IsTrue(UnitOfWork.Employees.Any(e=>e.Id == _newEmployee.Id));
+            Assert.IsTrue(UnitOfWork.Employees.Any(e=>e.Id == _newEmployee.Id));
             var enumerator = Repository.GetEnumerator();
 
             while (enumerator.MoveNext())
             {
                 Debug.WriteLine(enumerator.Current.Id);
             }
-            //foreach (var employee in Repository)
-            //{
-            //    Debug.WriteLine(employee.Id);
-            //}
         }
 
         [Test]

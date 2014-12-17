@@ -36,7 +36,7 @@ namespace TddDemo.Test
         }
 
         [TearDown]
-        public void TearDown()
+        public void IndividualTestTearDown()
         {
             UnitOfWork.Employees.Remove(_newEmployee);
         }
