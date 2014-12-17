@@ -14,4 +14,3 @@ c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.T
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\obj\Debug\TddDemo.Test.csprojResolveAssemblyReference.cache
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\obj\Debug\TddDemo.Test.dll
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Test\obj\Debug\TddDemo.Test.pdb
-C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Test\bin\Debug\HibernatingRhinos.Profiler.Appender.dll

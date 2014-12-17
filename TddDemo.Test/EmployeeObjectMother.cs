@@ -11,19 +11,19 @@ namespace TddDemo.Test
             yield return new Employee()
             {
                 Id = 1,
-                Name = "Scott",
+                Name = "Karel",
                 HireDate = new DateTime(2002, 1, 1)
             };
             yield return new Employee()
             {
                 Id = 2,
-                Name = "Poonam",
+                Name = "Divan",
                 HireDate = new DateTime(2001, 1, 1)
             };
             yield return new Employee()
             {
                 Id = 3,
-                Name = "Simon",
+                Name = "Steven",
                 HireDate = new DateTime(2008, 1, 1)
             };
         }

@@ -8,7 +8,7 @@ namespace TddDemo.Logic.UnitOfWork
         public LocalDbContext(string connectionStringName)
             : base(connectionStringName)
         {
-            
+            Database.SetInitializer(new CreateDatabaseIfNotExists<LocalDbContext>());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

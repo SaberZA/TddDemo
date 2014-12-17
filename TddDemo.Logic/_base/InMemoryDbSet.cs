@@ -26,24 +26,32 @@ namespace TddDemo.Test
         readonly IQueryable<T> _queryableSet;
         public IEnumerator<T> GetEnumerator()
         {
-            return _queryableSet.GetEnumerator();
+            return _set.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return GetEnumerator();
+            return _set.GetEnumerator();
         }
 
         #region IQueryable
 
-        public Expression Expression { get; set; }
+        public Expression Expression
+        {
+            get { return _queryableSet.Expression; }
+        }
 
         public Type ElementType
         {
-            get { return typeof (T); }
+            get { return _queryableSet.ElementType; }
             
         }
-        public IQueryProvider Provider { get; private set; }
+
+        public IQueryProvider Provider
+        {
+            get { return _queryableSet.Provider; }
+        }
+
         #endregion
 
         public T Find(params object[] keyValues)
