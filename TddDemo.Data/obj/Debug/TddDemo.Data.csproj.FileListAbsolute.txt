@@ -3,3 +3,8 @@ c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.D
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\obj\Debug\TddDemo.Data.dll
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\obj\Debug\TddDemo.Data.pdb
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Data\obj\Debug\TddDemo.Data.csprojResolveAssemblyReference.cache
+C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Data\bin\Debug\TddDemo.Data.dll.config
+C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Data\bin\Debug\EntityFramework.dll
+C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Data\bin\Debug\EntityFramework.xml
+C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Data\bin\Debug\EntityFramework.SqlServer.xml

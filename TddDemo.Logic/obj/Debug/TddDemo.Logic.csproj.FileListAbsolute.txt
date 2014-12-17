@@ -8,3 +8,5 @@ c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.L
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\obj\Debug\TddDemo.Logic.dll
 c:\users\stevenv.agrista\documents\visual studio 2012\Projects\TddDemo\TddDemo.Logic\obj\Debug\TddDemo.Logic.pdb
 C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Logic\obj\Debug\TddDemo.Logic.csprojResolveAssemblyReference.cache
+C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\TddDemo.Data.dll
+C:\Users\stevenv.AGRISTA\Documents\Visual Studio 2012\Projects\TddDemo\TddDemo.Logic\bin\Debug\TddDemo.Data.pdb

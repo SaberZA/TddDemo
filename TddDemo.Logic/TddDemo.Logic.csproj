@@ -48,17 +48,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Employee.cs" />
-    <Compile Include="UnitOfWork\LocalDbContext.cs" />
-    <Compile Include="_base\InMemoryDbSet.cs" />
+    <Compile Include="Context\InMemoryDbSet.cs" />
+    <Compile Include="Context\LocalDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\TimeCard.cs" />
-    <Compile Include="_base\InMemoryUnitOfWork.cs" />
-    <Compile Include="_base\Interfaces\IUnitOfWork.cs" />
+    <Compile Include="UnitOfWork\InMemoryUnitOfWork.cs" />
+    <Compile Include="UnitOfWork\Interfaces\IUnitOfWork.cs" />
     <Compile Include="UnitOfWork\SqlUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TddDemo.Data\TddDemo.Data.csproj">
+      <Project>{E0727DE3-0B55-48AE-BDBB-6FEE92019B5D}</Project>
+      <Name>TddDemo.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
